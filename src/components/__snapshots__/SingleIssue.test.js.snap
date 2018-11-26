@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleIssue should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleIssue
+    labels={Array []}
+    number={2018}
+    time="2018-11-18T22:53:22Z"
+    title="test title"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="single-issue__title--container"
+        >
+          <img
+            alt="open issues sign"
+            className="single-issue__title--icon"
+            src="attention-sign-outline.svg"
+          />
+          <div
+            className="single-issue__title--text"
+          >
+            test title
+          </div>
+        </div>,
+        <div
+          className="single-issue__info"
+        >
+          <span
+            className="single-issue__info--text"
+          >
+            #
+            2018
+             opened
+            <Timestamp
+              actualSeconds={false}
+              autoUpdate={false}
+              className=""
+              component="span"
+              format="ago"
+              includeDay={false}
+              precision={1}
+              since={null}
+              style={Object {}}
+              time="2018-11-18T22:53:22Z"
+              twentyFourHour={false}
+              until={null}
+              utc={true}
+            />
+            by 
+          </span>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="open issues sign"
+              className="single-issue__title--icon"
+              src="attention-sign-outline.svg"
+            />,
+            <div
+              className="single-issue__title--text"
+            >
+              test title
+            </div>,
+          ],
+          "className": "single-issue__title--container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "open issues sign",
+              "className": "single-issue__title--icon",
+              "src": "attention-sign-outline.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "test title",
+              "className": "single-issue__title--text",
+            },
+            "ref": null,
+            "rendered": "test title",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="single-issue__info--text"
+            >
+              #
+              2018
+               opened
+              <Timestamp
+                actualSeconds={false}
+                autoUpdate={false}
+                className=""
+                component="span"
+                format="ago"
+                includeDay={false}
+                precision={1}
+                since={null}
+                style={Object {}}
+                time="2018-11-18T22:53:22Z"
+                twentyFourHour={false}
+                until={null}
+                utc={true}
+              />
+              by 
+            </span>,
+            null,
+          ],
+          "className": "single-issue__info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "#",
+                2018,
+                " opened",
+                <Timestamp
+                  actualSeconds={false}
+                  autoUpdate={false}
+                  className=""
+                  component="span"
+                  format="ago"
+                  includeDay={false}
+                  precision={1}
+                  since={null}
+                  style={Object {}}
+                  time="2018-11-18T22:53:22Z"
+                  twentyFourHour={false}
+                  until={null}
+                  utc={true}
+                />,
+                "by ",
+                undefined,
+              ],
+              "className": "single-issue__info--text",
+            },
+            "ref": null,
+            "rendered": Array [
+              "#",
+              2018,
+              " opened",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "actualSeconds": false,
+                  "autoUpdate": false,
+                  "className": "",
+                  "component": "span",
+                  "format": "ago",
+                  "includeDay": false,
+                  "precision": 1,
+                  "since": null,
+                  "style": Object {},
+                  "time": "2018-11-18T22:53:22Z",
+                  "twentyFourHour": false,
+                  "until": null,
+                  "utc": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "by ",
+              undefined,
+            ],
+            "type": "span",
+          },
+          null,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "li",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="single-issue__title--container"
+          >
+            <img
+              alt="open issues sign"
+              className="single-issue__title--icon"
+              src="attention-sign-outline.svg"
+            />
+            <div
+              className="single-issue__title--text"
+            >
+              test title
+            </div>
+          </div>,
+          <div
+            className="single-issue__info"
+          >
+            <span
+              className="single-issue__info--text"
+            >
+              #
+              2018
+               opened
+              <Timestamp
+                actualSeconds={false}
+                autoUpdate={false}
+                className=""
+                component="span"
+                format="ago"
+                includeDay={false}
+                precision={1}
+                since={null}
+                style={Object {}}
+                time="2018-11-18T22:53:22Z"
+                twentyFourHour={false}
+                until={null}
+                utc={true}
+              />
+              by 
+            </span>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="open issues sign"
+                className="single-issue__title--icon"
+                src="attention-sign-outline.svg"
+              />,
+              <div
+                className="single-issue__title--text"
+              >
+                test title
+              </div>,
+            ],
+            "className": "single-issue__title--container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "open issues sign",
+                "className": "single-issue__title--icon",
+                "src": "attention-sign-outline.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "test title",
+                "className": "single-issue__title--text",
+              },
+              "ref": null,
+              "rendered": "test title",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="single-issue__info--text"
+              >
+                #
+                2018
+                 opened
+                <Timestamp
+                  actualSeconds={false}
+                  autoUpdate={false}
+                  className=""
+                  component="span"
+                  format="ago"
+                  includeDay={false}
+                  precision={1}
+                  since={null}
+                  style={Object {}}
+                  time="2018-11-18T22:53:22Z"
+                  twentyFourHour={false}
+                  until={null}
+                  utc={true}
+                />
+                by 
+              </span>,
+              null,
+            ],
+            "className": "single-issue__info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "#",
+                  2018,
+                  " opened",
+                  <Timestamp
+                    actualSeconds={false}
+                    autoUpdate={false}
+                    className=""
+                    component="span"
+                    format="ago"
+                    includeDay={false}
+                    precision={1}
+                    since={null}
+                    style={Object {}}
+                    time="2018-11-18T22:53:22Z"
+                    twentyFourHour={false}
+                    until={null}
+                    utc={true}
+                  />,
+                  "by ",
+                  undefined,
+                ],
+                "className": "single-issue__info--text",
+              },
+              "ref": null,
+              "rendered": Array [
+                "#",
+                2018,
+                " opened",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "actualSeconds": false,
+                    "autoUpdate": false,
+                    "className": "",
+                    "component": "span",
+                    "format": "ago",
+                    "includeDay": false,
+                    "precision": 1,
+                    "since": null,
+                    "style": Object {},
+                    "time": "2018-11-18T22:53:22Z",
+                    "twentyFourHour": false,
+                    "until": null,
+                    "utc": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "by ",
+                undefined,
+              ],
+              "type": "span",
+            },
+            null,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "li",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

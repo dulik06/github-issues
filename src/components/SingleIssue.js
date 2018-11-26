@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Labels from './Labels';
 import Timestamp from 'react-timestamp';
+
 import openIssueSign from '../assets/svg/attention-sign-outline.svg'
 
 class SingleIssue extends Component {
+
+  static propTypes = {
+    title: PropTypes.string.isRequired,
+    number: PropTypes.number.isRequired,
+    labels: PropTypes.array.isRequired,
+    time: PropTypes.string.isRequired,
+  }
+
   render() {
     return (
       <li>
@@ -20,7 +30,7 @@ class SingleIssue extends Component {
          {
            this.props.labels.length > 0 ? 
             this.props.labels.map(label =>
-              <Labels name={label.name} color={label.color} key={label.id}/>
+              <Labels name={label.name} color={label.color} key={label.id} id="labels"/>
             ) 
             :
             null
